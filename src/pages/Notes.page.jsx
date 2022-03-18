@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Grid } from "@mui/material";
 
 // Component Imports
-import NoteCard from "../components/NoteCard";
+import NoteCard from "../components/NoteCard.component";
 
 function NotesPage() {
   const [notes, setNotes] = useState([]);
