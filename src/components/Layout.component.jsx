@@ -1,14 +1,18 @@
 import React from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import {
+  AppBar,
+  Avatar,
   Drawer,
   List,
   ListItemButton,
   ListItemIcon,
   ListItemText,
+  Toolbar,
   Typography,
 } from "@mui/material";
 import { AddCircleOutlineOutlined, SubjectOutlined } from "@mui/icons-material";
+import { format } from "date-fns";
 
 // Style Imports
 import "./Layout.styles.css";
@@ -34,6 +38,16 @@ function Layout() {
 
   return (
     <div className="flex-container">
+      <AppBar sx={{ width: `calc(100% - ${drawerWidth}px)` }} elevation={0}>
+        <Toolbar>
+          <Typography sx={{ flexGrow: 1 }}>
+            Today is the {format(new Date(), `do MMMM Y`)}
+          </Typography>
+          <Typography>UserName</Typography>
+          <Avatar src="/default-user.png" sx={{ ml: 2 }} />
+        </Toolbar>
+      </AppBar>
+
       <Drawer
         sx={{
           width: drawerWidth,
@@ -49,7 +63,7 @@ function Layout() {
       >
         <div>
           <Typography variant="h5" sx={{ p: 2 }}>
-            Note App
+            React-Notes
           </Typography>
         </div>
 
@@ -72,6 +86,7 @@ function Layout() {
       </Drawer>
 
       <div className="page">
+        <div className="toolbar"></div>
         <Outlet />
       </div>
     </div>

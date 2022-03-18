@@ -108,9 +108,9 @@ function CreatePage() {
               label="Reminders"
             />
             <FormControlLabel
-              value="drafts"
+              value="social"
               control={<Radio color="secondary" />}
-              label="Drafts"
+              label="Social"
             />
             <FormControlLabel
               value="other"
