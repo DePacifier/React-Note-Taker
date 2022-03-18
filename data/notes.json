@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "title": "EIC Submission Day",
+      "details": "Officia culpa quis ea irure aliquip reprehenderit officia eiusmod irure reprehenderit.",
+      "category": "reminders",
+      "id": 1
+    },
+    {
+      "title": "Finish Data Centers Component",
+      "details": "Aliquip sit laborum mollit est adipisicing anim duis velit magna reprehenderit elit exercitation exercitation. Fugiat anim enim proident labore labore ullamco. Id labore ipsum elit dolore pariatur laboris cillum tempor. Id consectetur commodo anim est dolor aute sint laboris id ea occaecat adipisicing. Dolore nisi dolore fugiat mollit eiusmod pariatur. Lorem cillum aute fugiat quis cillum quis ad et culpa cupidatat. Ut mollit proident reprehenderit occaecat amet minim ex nulla qui.",
+      "category": "work",
+      "id": 2
+    },
+    {
+      "title": "Order new SSD Drive",
+      "details": "Id nisi mollit non eu minim amet.",
+      "category": "todos",
+      "id": 3
+    },
+    {
+      "title": "abebe bb",
+      "details": "asdsad",
+      "category": "work",
+      "id": 4
+    }
+  ]
+}
