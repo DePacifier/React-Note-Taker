@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, Grid } from "@mui/material";
+import { Container } from "@mui/material";
 import Masonry from "react-masonry-css";
 
 // Component Imports

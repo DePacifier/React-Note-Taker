@@ -43,8 +43,8 @@ function Layout() {
           <Typography sx={{ flexGrow: 1 }}>
             Today is the {format(new Date(), `do MMMM Y`)}
           </Typography>
-          <Typography>UserName</Typography>
-          <Avatar src="/default-user.png" sx={{ ml: 2 }} />
+          <Typography>Depa</Typography>
+          <Avatar src="/black-profile.avif" sx={{ ml: 2 }} />
         </Toolbar>
       </AppBar>
 
